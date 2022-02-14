@@ -11,7 +11,7 @@
 
       <nav class="user-navigation">
         <form class="user-search-form">
-        <label for="search" class="visually-hidden">Поиск по сайту</label>
+          <label for="search" class="visually-hidden">Поиск по сайту</label>
           <input class="search"  placeholder="Текст поиска" type="search" name="search" id="search">
 
           <button class="button newsletter-button" type="submit">
@@ -36,16 +36,29 @@
         <ul class="main-navigation-list">
           
           <li class="main-navigation-item">
-            <a class="main-navigation-link" href="catalog.html">Каталог товаров</a>
-            <select class="select-control" aria-label="Сортировка">
-              <option value="virtual-reality">Виртуальная реальность</option>
-              <option value="monopods-for-selfie">Моноподы для селфи</option>
-              <option value="action-cameras">Экшн-камеры</option>
-              <option value="fitness-bracelets">Фитнес-браслеты</option>
-              <option value="smart-watches">Умные часы</option>
-              <option value="quadrocopters">Квадрокоптеры</option>
-            </select>
+            <button class="main-navigation-link" type="button">Каталог товаров</button>
+              <ul>
+                <li>
+                  <a href="#">Виртуальная реальность</a>
+                </li>
+                <li>
+                  <a href="#">Моноподы для селфи</a>
+                </li>
+                <li>
+                  <a href="#">Экшн-камеры</a>
+                </li>
+                <li>
+                  <a href="#">Фитнес-браслеты</a>
+                </li>
+                <li>
+                  <a href="#">Умные часы</a>
+                </li>
+                <li>
+                  <a href="#">Квадрокоптеры</a>
+                </li>
+              </ul>
           </li>
+          
           <li>
             <a class="main-navigation-link" href="#">Доставка</a>
           </li>
@@ -62,50 +75,148 @@
     <main class="main-index">
       <h1 class="visually-hidden">Девайс - интернет-магазин гаджетов</h1>
 
-      <section class="slider-image">
-        <h2 class="visually-hidden">Изображение товара на слайдере</h2>
-        <img class="slider-big-image" src="" alt="Квадрокоптер.">
-        <button class="slider-button slider-prev" type="button">
-          <span class="visually-hidden">Предыдущее фото</span>
-        </button>
-        <button class="slider-button slider-next" type="button">
-          <span class="visually-hidden">Следующее фото</span>
-        </button>
-      </section>>
+      <section class="slider">
+        <h2 class="visually-hidden">Слайдер</h2>
+        
+          <div class="slider-image-quadrocopter">
+            <h3 class="visually-hidden">Изображение квадрокоптера на слайдере</h3>
+            <img class="slider-quadrocopter-big-image" src="" alt="Квадрокоптер.">
+              <button class="slider-button slider-prev" type="button">
+                <span class="visually-hidden">Предыдущее фото</span>
+              </button>
+              <button class="slider-button slider-next" type="button">
+                <span class="visually-hidden">Следующее фото</span>
+              </button>
+            </div>
 
-      <section class="slider-description">
-        <h2 class="visually-hidden">Описание квадрокоптера</h2>
+          <div class="slider-description-quadrocopter">
+            <h3 class="visually-hidden">Описание квадрокоптера</h3>
 
-        <p class="slogan">Порхает как бабочка,<br>
-                          жалит как пчела!</p>
-        <p class="description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
-        </p>
-        <a class="slider-description-link" href="#">Подробнее</a>
+            <p class="slogan-quadrocopter">Порхает как бабочка, жалит как пчела!</p>
+            <p class="description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
+            </p>
+            <a class="slider-description-link" href="#">Подробнее</a>
+          </div>
 
-        <ul class="slider-gallery">
-          <li class="slider-gallery-item">
-            <button class="slider-gallery-button slider-gallery-button-current" type="radio">
-              <span class="visually-hidden">1 товар</span>
-            </button>
-          </li>
-          <li class="slider-gallery-item">
-            <button class="slider-gallery-button slider-gallery-button" type="radio">
-              <span class="visually-hidden">2 товар</span>
-            </button>
-          </li>
-          <li class="slider-gallery-item">
-            <button class="slider-gallery-button slider-gallery-button" type="radio">
-              <span class="visually-hidden">3 товар</span>
-            </button>
-          </li>
-        </ul>
+          <ul class="slider-controls-quadrocopter">
+            <li class="slider-controls-item">
+              <button class="slider-controls slider-controls-current" type="radio">
+                <span class="visually-hidden">Квадрокоптер</span>
+              </button>
+            </li>
+            <li class="slider-controls-item">
+              <button class="slider-controls" type="radio">
+                <span class="visually-hidden">Фитнес-браслеты</span>
+              </button>
+            </li>
+            <li class="slider-controls-item">
+              <button class="slider-controls" type="radio">
+                <span class="visually-hidden">Моноподы для селфи</span>
+              </button>
+            </li>
+          </ul>
       
-        <table>
-          <tr>
-            <td>800 м</td><td>50 м</td>
-            <td>Дальность полета</td><td>Радиус поражения</td>
-          </tr>
-        </table>
+          <table class="table-quadrocopter">
+            <tr>
+              <td>800 м</td><td>50 м</td>
+            </tr>
+            <tr>
+              <td>Дальность полета</td><td>Радиус поражения</td>
+            </tr>
+          </table>
+        
+          <div class="slider-image-fitness-braselet">
+            <h3 class="visually-hidden">Изображение фитнес-браслета на слайдере</h3>
+            <img class="slider-fitness-braselet-big-image" src="" alt="Фитнес-браслет.">
+              <button class="slider-button slider-prev" type="button">
+                <span class="visually-hidden">Предыдущее фото</span>
+              </button>
+              <button class="slider-button slider-next" type="button">
+                <span class="visually-hidden">Следующее фото</span>
+              </button>
+          </div>
+  
+          <div class="slider-description-fitness-braselet">
+            <h3 class="visually-hidden">Описание фитнес-браслета</h3>
+  
+            <p class="slogan-fitness-braselet">Худеем правильно!</p>
+            <p class="description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
+            <a class="slider-description-link" href="#">Подробнее</a>
+          </div>
+  
+          <ul class="slider-controls">
+            <li class="slider-controls-item">
+              <button class="slider-controls" type="radio">
+                <span class="visually-hidden">Квадрокоптер</span>
+              </button>
+            </li>
+            <li class="slider-controls-item">
+              <button class="slider-controls slider-controls-current" type="radio">
+                <span class="visually-hidden">Фитнес-браслеты</span>
+              </button>
+            </li>
+            <li class="slider-controls-item">
+              <button class="slider-controls" type="radio">
+                <span class="visually-hidden">Моноподы для селфи</span>
+              </button>
+            </li>
+          </ul>
+        
+          <table>
+            <tr>
+              <td>48 часов</td><td>Без подзарядки</td>
+            </tr>
+          </table>        
+
+          <div class="slider-image-monopodes-for-selfie">
+            <h3 class="visually-hidden">Изображение монопода на слайдере</h3>
+            <img class="slider-monopodes-for-selfie-big-image" src="" alt="Монопод для селфи.">
+              <button class="slider-button slider-prev" type="button">
+                <span class="visually-hidden">Предыдущее фото</span>
+              </button>
+              <button class="slider-button slider-next" type="button">
+                <span class="visually-hidden">Следующее фото</span>
+              </button>
+          </div>
+    
+          <div class="slider-description-monopodes-for-selfie">
+            <h3 class="visually-hidden">Описание монопода для селфи</h3>
+    
+            <p class="slogan-monopodes-for-selfie">Делай селфи, как Бен Стиллер!</p>
+            <p class="description">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.</p>
+            <a class="slider-description-link" href="#">Подробнее</a>
+          </div>
+    
+          <ul class="slider-controls">
+            <li class="slider-controls-item">
+              <button class="slider-controls" type="radio">
+                <span class="visually-hidden">Квадрокоптер</span>
+              </button>
+            </li>
+            <li class="slider-controls-item">
+              <button class="slider-controls" type="radio">
+                <span class="visually-hidden">Фитнес-браслеты</span>
+              </button>
+            </li>
+            <li class="slider-controls-item">
+              <button class="slider-controls slider-controls-current" type="radio">
+                <span class="visually-hidden">Моноподы для селфи</span>
+              </button>
+            </li>
+          </ul>
+          
+          <table>
+            <tr>
+              <td>8,5 м</td><td>Длина палки</td>
+            </tr>
+            <tr>
+              <td>5 кг</td><td>Вес палки</td>
+            </tr>
+            <tr>
+              <td>Карбон</td><td>Материал</td>
+            </tr>
+          </table>              
+
       </section>
 
       <section class="catalog">
