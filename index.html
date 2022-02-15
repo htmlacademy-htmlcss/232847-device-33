@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="page-header">
-      <a href="#"><img class="logo-header" src="" alt="Логотип магазина Девайс."></a>
+      <a class="logo-link" href="#"><img class="logo-header" src="" alt="Логотип магазина Девайс."></a>
 
       <nav class="user-navigation">
         <form class="user-search-form">
@@ -87,7 +87,7 @@
             <h3 class="visually-hidden">Описание квадрокоптера</h3>
             <p class="slogan-quadrocopter">Порхает как бабочка, жалит как пчела!</p>
             <p class="description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
-            <a class="slider-description-link" href="#">Подробнее</a>
+            <a class="link-about" href="#">Подробнее</a>
           </div>
 
           <table class="table-quadrocopter">
@@ -109,7 +109,7 @@
   
             <p class="slogan-fitness-braselet">Худеем <br>правильно!</p>
             <p class="description">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
-            <a class="slider-description-link" href="#">Подробнее</a>
+            <a class="link-about" href="#">Подробнее</a>
           </div>
 
           <table>
@@ -128,7 +128,7 @@
     
             <p class="slogan-monopodes-for-selfie">Делай селфи, <br>как Бен Стиллер!</p>
             <p class="description">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.</p>
-            <a class="slider-description-link" href="#">Подробнее</a>
+            <a class="link-about" href="#">Подробнее</a>
           </div>
   
           <table>
@@ -217,23 +217,45 @@
         </ul>
       </section>
 
-      <section class="benefits">
+      <section class="benefits-slider">
         <h2 class="visually-hidden">Преимущества</h2>
-          <ul class="benefits-tabs-list">
-            <li class="benefit-tab active"><a class="tab-link shipping" href="#">Доставка</a></li>
-            <li class="benefit-tab"><a class="tab-link guaranty" href="#">Гарантия</a></li>
-            <li class="benefit-tab"><a class="tab-link credit" href="#">Кредит</a></li>
-          </ul>
 
-          <section class="benefit-content">
-            <h2 class="benefit-title">Доставка</h2>
-            <p class="benefit-message">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
-          </section>
+        <ul class="benefits-controls">
+          <li class="benefits-controls-item">
+            <button class="tab-link tab-link-shipping" type="button">Доставка</button>
+          </li>
+          <li class="benefits-controls-item">
+            <button class="tab-link tab-link-guarantee" type="button">Гарантия</button>
+          </li>
+          <li class="benefits-controls-item">
+            <button class="tab-link tab-link-credit" type="button">Кредит</button>
+          </li>
+        </ul>
+
+        <div class="benefits-description">
+
+          <div class="benefits-shipping-description">
+            <p class="benefits-shipping-description">Доставка</p>
+            <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+          </div>
+        
+          <div class="benefits-quarantee-description">
+            <p class="benefits-quarantee-description">Гарантия</p>
+            <p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
+          </div>
+
+          <div class="benefits-credit-description">
+            <p class="benefits-credit-description">Кредит</p>
+            <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для банка, разумеется.</p>
+          </div>
+
+        </div>
+
       </section>
       
       <section class="delivery">
         <h3 class="visually-hidden">Преимущество доставки</h3>
-        <p class="delivery-text">Доставим редкий товар под заказ</p>
+        <button class="delivery-modal-window" type="button">Доставим редкий товар под заказ</button>
       </section>
 
       <section class="about">
@@ -246,8 +268,9 @@
           <li class="about-item">СДИК</li>
           <li class="about-item">ТоксБерри</li>
         </ul>
+      
+        <a class="link-about" href="#">Подробнее о нас</a>
 
-        <a class="about-link">Подробнее о нас</a>
       </section>
 
       <section class="contacts">
@@ -265,7 +288,7 @@
         <p>пн—пт: с 10:00 до 22:00<br>
            сб—вс: с 10:00 до 19:00</p>
         
-        <a class="feedback-link" href="#">Напишите нам</a>
+        <a class="link-about" href="#">Напишите нам</a>
       </section>
 
       <section class="newsletter">
