@@ -161,18 +161,18 @@
       </button>
 
       <ul class="slider-controls">
-        <li class="slider-controls-item">
-          <button class="slider-controls slider-controls-current" type="button">
+        <li class="slide-control-item">
+          <button class="slider-control slide-control-current" type="button">
             <span class="visually-hidden">Квадрокоптер</span>
           </button>
         </li>
-        <li class="slider-controls-item">
-          <button class="slider-controls" type="button">
+        <li class="slide-control-item">
+          <button class="slide-control" type="button">
             <span class="visually-hidden">Фитнес-браслеты</span>
           </button>
         </li>
-        <li class="slider-controls-item">
-          <button class="slider-controls" type="button">
+        <li class="slide-control-item">
+          <button class="slide-control" type="button">
             <span class="visually-hidden">Моноподы для селфи</span>
           </button>
         </li>
@@ -231,33 +231,33 @@
       <h2 class="visually-hidden">Преимущества</h2>
 
       <ul class="benefits-controls">
-        <li class="benefits-controls-item">
+        <li class="benefit-control-item">
           <button class="tab-link tab-link-shipping" type="button">Доставка</button>
         </li>
-        <li class="benefits-controls-item">
+        <li class="benefit-control-item">
           <button class="tab-link tab-link-guarantee" type="button">Гарантия</button>
         </li>
-        <li class="benefits-controls-item">
+        <li class="benefit-control-item">
           <button class="tab-link tab-link-credit" type="button">Кредит</button>
         </li>
       </ul>
 
       <div class="benefits-description">
 
-        <div class="benefits-shipping-description">
-          <p class="benefits-shipping-description">Доставка</p>
+        <div class="benefit-description-item">
+          <p class="benefit-description-title">Доставка</p>
           <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо
             заработаем, поднимая его на ваш этаж.</p>
         </div>
 
-        <div class="benefits-quarantee-description">
-          <p class="benefits-quarantee-description">Гарантия</p>
+        <div class="benefit-description">
+          <p class="benefit-description-title">Гарантия</p>
           <p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый.
             Товар, не дом, конечно же.</p>
         </div>
 
-        <div class="benefits-credit-description">
-          <p class="benefits-credit-description">Кредит</p>
+        <div class="benefit-description">
+          <p class="benefit-description-title">Кредит</p>
           <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия
             кредита. Выгодные для банка, разумеется.</p>
         </div>
@@ -309,24 +309,12 @@
       <p>Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а также акции,
         спецпредложения и вот это вот всё.</p>
 
-      <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-
-        <label for="newsletter-email" class="visually-hidden">Email</label>
-        <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
-          required>
-
-        <button class="button newsletter-button" type="submit">
-          <span>Подписаться</span>
-        </button>
-
-      </form>
-
       <p class="newsletter-free">Это бесплатно</p>
     </section>
 
   </main>
   <footer class="main-footer">
-    <a href="#"><img class="logo-footer" src="" alt="Логотип магазина Девайс."></a>
+    <a class="logo-footer" href="#"><img src="" alt="Логотип магазина Девайс."></a>
     <address class="footer-contacts-address">
       <p class="footer-contacts">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
     </address>
@@ -366,6 +354,19 @@
     <a href="https://htmlacademy.ru/"><img class="logo-academy" src="" alt="Логотип HTML Academy."></a>
 
   </footer>
+
+  <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+
+    <label for="newsletter-email" class="visually-hidden">Email</label>
+    <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
+      required>
+
+    <button class="button newsletter-button" type="submit">
+      <span>Подписаться</span>
+    </button>
+
+  </form>
+  
 </body>
 
 </html>
