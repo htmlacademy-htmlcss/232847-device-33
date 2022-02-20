@@ -91,25 +91,187 @@
             </li>
         </ul>
 
+        <section class="sorting">
+            <p class="sorting-title">Фильтр:</p>
+            <p class="sorting-title">Сортировка</p>
+
+            <select class="sorting-control" name="Сортировка">
+                <option value="Popular">Популярные</option>
+            </select>
+
+            <a class="sorting-button" href="#"><img src="" alt="Предыдущая страница."></a>
+            <a class="sorting-button" href="#"><img src="" alt="Следующая страница."></a>
+
+            <ul class="product-list">
+                <li class="product-card">
+                    <a class="product-card-link" href="#">
+                        <img class="product-card-image" src="" alt="Любительская селфи-палка.">
+                        <h3 class="product-card-title">Любительская селфи-палка</h3>
+                    </a>
+                    <p class="product-crd-price">500 ₽</p>
+                </li>
+
+                <li class="product-card">
+                    <a class="product-card-link" href="#">
+                        <img class="product-card-image" src="" alt="Профессиональная селфи-палка.">
+                        <h3 class="product-card-title">Профессиональная селфи-палка</h3>
+                    </a>
+                    <p class="product-crd-price">1 500 ₽</p>
+                </li>
+
+                <li class="product-card">
+                    <a class="product-card-link" href="#">
+                        <img class="product-card-image" src="" alt="Непотопляемая селфи-палка.">
+                        <h3 class="product-card-title">Непотопляемая селфи-палка</h3>
+                    </a>
+                    <p class="product-crd-price">2 500 ₽</p>
+                </li>
+
+                <li class="product-card">
+                    <a class="product-card-link" href="#">
+                        <img class="product-card-image" src="" alt="Селфи-палка «Следуй за мной».">
+                        <h3 class="product-card-title">Селфи-палка «Следуй за мной»</h3>
+                    </a>
+                    <p class="product-crd-price">1 500 ₽</p>
+                </li>
+            </ul>
+
+            <button type="button">Загрузить ещё</button>
+
+            <ul class="pagination">
+                <li class="pagination-item">
+                    <a class="pagination-link pagination-prev">
+                        <p>Назад</p>
+                    </a>
+                </li>
+                <li class="pagination-item">
+                    <a class="pagination-link pagination-current">1</a>
+                </li>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">2</a>
+                </li>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">3</a>
+                </li>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">4</a>
+                </li>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">5</a>
+                </li>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">6</a>
+                </li>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">7</a>
+                </li>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">8</a>
+                </li>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">9</a>
+                </li>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">10</a>
+                </li>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">11</a>
+                </li>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">12</a>
+                </li>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">13</a>
+                </li>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">14</a>
+                </li>
+                <li class="pagination-item">
+                    <a class="pagination-link" href="#">15</a>
+                </li>
+                <li class="pagination-item">
+                    <a class="pagination-link pagination-next" href="#">
+                        <span class="visually-hidden">Вперед</span>
+                    </a>
+                </li>
+            </ul>
+
+        </section>
+
         <section class="catalog-products">
             <h2 class="visually-hidden">Список товаров с фильтрами</h2>
-            
+
             <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-                
+
                 <fieldset class="catalog-filter-group">
                     <legend class="catalog-filter-title">Стоимость</legend>
+                    <label class="control">
+                        <input type="range" min="0" max="9000" step="1" value="5000">
+                    </label>
+                    <input type="range" min="0" max="100" step="1" value="75">
                 </fieldset>
+
                 <fieldset class="catalog-filter-group">
                     <legend class="catalog-filter-title">Цвет</legend>
+                    <ul class="catalog-filter-list">
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="control-input" type="checkbox" name="black" checked>
+                                Черный
+                            </label>
+                        </li>
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="control-input" type="checkbox" name="white" checked>
+                                Белый
+                            </label>
+                        </li>
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="control-input" type="checkbox" name="blue">
+                                Синий
+                            </label>
+                        </li>
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="control-input" type="checkbox" name="red">
+                                Красный
+                            </label>
+                        </li>
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="control-input" type="checkbox" name="pink">
+                                Розовый
+                            </label>
+                        </li>
+                    </ul>
                 </fieldset>
+
                 <fieldset class="catalog-filter-group">
                     <legend class="catalog-filter-title">Bluetooth</legend>
+                    <ul class="catalog-filter-list">
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="control-input" type="radio" name="present" checked>
+                                Есть
+                            </label>
+                        </li>
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="control-input" type="radio" name="no-present">
+                                Нет
+                            </label>
+                        </li>
+                    </ul>
                 </fieldset>
 
                 <button class="button" type="submit">Показать</button>
 
             </form>
+
         </section>
+
+
 
     </main>
 
