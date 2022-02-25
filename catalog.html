@@ -9,7 +9,7 @@
 
 <body>
     <header class="page-header">
-        <a class="logo-link" href="#"><img class="logo-header" src="" alt="Логотип магазина Девайс."></a>
+        <a class="logo-link" href="index.html"><img class="logo-header" src="" alt="Логотип магазина Девайс."></a>
 
         <nav class="user-navigation">
             <form class="user-search-form">
@@ -77,19 +77,19 @@
     <main class="main-inner">
         <header class="inner-header">
             <h1 class="inner-header-title">Моноподы для селфи</h1>
-        </header>
 
-        <ul class="breadcrumbs">
-            <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link" href="index.html">Главная</a>
-            </li>
-            <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link" href="#">Каталог товаров</a>
-            </li>
-            <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link">Моноподы для селфи</a>
-            </li>
-        </ul>
+            <ul class="breadcrumbs">
+                <li class="breadcrumbs-item">
+                    <a class="breadcrumbs-link" href="index.html">Главная</a>
+                </li>
+                <li class="breadcrumbs-item">
+                    <a class="breadcrumbs-link" href="#">Каталог товаров</a>
+                </li>
+                <li class="breadcrumbs-item">
+                    <a class="breadcrumbs-link">Моноподы для селфи</a>
+                </li>
+            </ul>
+        </header>
 
         <section class="sorting">
             <p class="sorting-title">Фильтр:</p>
@@ -106,39 +106,47 @@
                 <li class="product-card">
                     <a class="product-card-link" href="#">
                         <img class="product-card-image" src="" alt="Любительская селфи-палка.">
-                        <h3 class="product-card-title">Любительская селфи-палка</h3>
                     </a>
-                    <p class="product-crd-price">500 ₽</p>
+                    <div class="product-card-text">
+                        <h3 class="product-card-title" href="#">Любительская селфи-палка</h3>
+                        <p class="product-card-price">500 ₽</p>
+                    </div>
                 </li>
 
                 <li class="product-card">
                     <a class="product-card-link" href="#">
                         <img class="product-card-image" src="" alt="Профессиональная селфи-палка.">
-                        <h3 class="product-card-title">Профессиональная селфи-палка</h3>
                     </a>
-                    <p class="product-crd-price">1 500 ₽</p>
+                    <div class="product-card-text">
+                        <h3 class="product-card-title">Профессиональная селфи-палка</h3>
+                        <p class="product-crd-price">1 500 ₽</p>
+                    </div>
                 </li>
 
                 <li class="product-card">
                     <a class="product-card-link" href="#">
                         <img class="product-card-image" src="" alt="Непотопляемая селфи-палка.">
-                        <h3 class="product-card-title">Непотопляемая селфи-палка</h3>
                     </a>
-                    <p class="product-crd-price">2 500 ₽</p>
+                    <div class="product-card-text">
+                        <h3 class="product-card-title">Непотопляемая селфи-палка</h3>
+                        <p class="product-crd-price">2 500 ₽</p>
+                    </div>
                 </li>
 
                 <li class="product-card">
                     <a class="product-card-link" href="#">
                         <img class="product-card-image" src="" alt="Селфи-палка «Следуй за мной».">
-                        <h3 class="product-card-title">Селфи-палка «Следуй за мной»</h3>
                     </a>
-                    <p class="product-crd-price">1 500 ₽</p>
+                    <div class="product-card-text">
+                        <h3 class="product-card-title">Селфи-палка «Следуй за мной»</h3>
+                        <p class="product-crd-price">1 500 ₽</p>
+                    </div>
                 </li>
             </ul>
 
             <button type="button">
                 <span>Загрузить ещё</span>
-                </button>
+            </button>
 
             <ul class="pagination">
                 <li class="pagination-item">
@@ -200,7 +208,7 @@
 
         </section>
 
-        <section class="catalog-products">
+        <section class="filters">
             <h2 class="visually-hidden">Список товаров с фильтрами</h2>
 
             <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
@@ -210,7 +218,6 @@
                     <label class="control">
                         <input type="range" min="0" max="9000" step="1" value="5000">
                     </label>
-                    <input type="range" min="0" max="100" step="1" value="75">
                 </fieldset>
 
                 <fieldset class="catalog-filter-group">
@@ -218,32 +225,27 @@
                     <ul class="catalog-filter-list">
                         <li class="catalog-filter-item">
                             <label class="control">
-                                <input class="control-input" type="checkbox" name="black" checked>
-                                Черный
+                                <input class="control-input" type="checkbox" name="black" checked>Черный
                             </label>
                         </li>
                         <li class="catalog-filter-item">
                             <label class="control">
-                                <input class="control-input" type="checkbox" name="white" checked>
-                                Белый
+                                <input class="control-input" type="checkbox" name="white" checked>Белый
                             </label>
                         </li>
                         <li class="catalog-filter-item">
                             <label class="control">
-                                <input class="control-input" type="checkbox" name="blue">
-                                Синий
+                                <input class="control-input" type="checkbox" name="blue">Синий
                             </label>
                         </li>
                         <li class="catalog-filter-item">
                             <label class="control">
-                                <input class="control-input" type="checkbox" name="red">
-                                Красный
+                                <input class="control-input" type="checkbox" name="red">Красный
                             </label>
                         </li>
                         <li class="catalog-filter-item">
                             <label class="control">
-                                <input class="control-input" type="checkbox" name="pink">
-                                Розовый
+                                <input class="control-input" type="checkbox" name="pink">Розовый
                             </label>
                         </li>
                     </ul>
@@ -254,14 +256,12 @@
                     <ul class="catalog-filter-list">
                         <li class="catalog-filter-item">
                             <label class="control">
-                                <input class="control-input" type="radio" name="present" checked>
-                                Есть
+                                <input class="control-input" type="radio" name="status" value="present" checked>Есть
                             </label>
                         </li>
                         <li class="catalog-filter-item">
                             <label class="control">
-                                <input class="control-input" type="radio" name="no-present">
-                                Нет
+                                <input class="control-input" type="radio" name="status" value="no-present">Нет
                             </label>
                         </li>
                     </ul>
