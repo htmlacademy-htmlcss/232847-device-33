@@ -41,6 +41,10 @@ body {
     color: #444444;
 }
 
+a {
+    color: #000000;
+}
+
 /* Header */
 
 .page-header {
@@ -87,6 +91,10 @@ body {
 
 /* Benefits-slider */
 
+.benefits-list {
+    background-color: #F0F0F0;
+}
+
 .tab-link {
     font-family: Raleway, sans-serif;
     font-size: 18px; 
@@ -111,6 +119,7 @@ body {
     text-align: center; 
     letter-spacing: 0.2em; 
     text-transform: uppercase;
+    background-color: #F0F0F0;
 }
 
 /* Section About */
@@ -135,6 +144,10 @@ body {
 
 /* Section Newsletter */
 
+.newsletter {
+    background: #F0F0F0;
+}
+
 .newsletter h2 {
     font-family: Raleway, sans-serif;
     font-size: 50px; 
@@ -153,6 +166,11 @@ body {
 
 /* Footer */
 
+.main-footer {
+    background: #444444;
+}
+
+
 .nav-footer-item {
     font-family: Raleway, sans-serif;
     font-size: 18px; 
@@ -170,6 +188,10 @@ body {
 }
 
 /* Sorting */
+
+.sorting {
+    background: #F0F0F0;
+}
 
 .sorting-title, .sorting-control {
     font-family: Raleway, sans-serif;
@@ -208,6 +230,9 @@ body {
     text-transform: uppercase;
 }
 
+.pagination {
+    background-color: #EBEBEB; 
+}
 .pagination-prev, .pagination-next {
     font-family: Raleway, sans-serif;
     font-size: 18px; 
