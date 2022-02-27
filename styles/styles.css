@@ -1,0 +1,220 @@
+@font-face {
+    font-family: Rubik;
+    src: url("fonts\rubik\rubik-400.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url("fonts\rubik\rubik-700.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url("fonts\rubik\rubik-800.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url("fonts\raleway\raleway-800.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    
+}
+
+/* Main page */
+
+body {
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    background-color: #ffffff;
+    color: #444444;
+}
+
+/* Header */
+
+.page-header {
+    background-color: #FFE17F;
+}
+
+/* Navigation */
+
+.main-navigation-link {
+    font-family: Raleway, sans-serif;
+    font-size: 18px; 
+    line-height: 21px; 
+    letter-spacing: 0.2em; 
+    text-transform: uppercase;
+}
+
+/* Slider */
+
+.slide-slogan {
+    font-family: Raleway, sans-serif;
+    font-size: 50px; 
+    line-height: 50px;
+}
+
+/* Buttons About and Details */
+
+.link-about {
+    font-family: Raleway, sans-serif;
+    font-size: 18px; 
+    line-height: 21px; 
+    text-align: center; 
+    letter-spacing: 0.2em; 
+    text-transform: uppercase;
+}
+
+/* Catalogue with links on the main page */
+
+.catalog-item-name {
+    font-family: Raleway, sans-serif;
+    font-size: 18px; 
+    line-height: 24px; 
+    letter-spacing: -0.02em;
+}
+
+/* Benefits-slider */
+
+.tab-link {
+    font-family: Raleway, sans-serif;
+    font-size: 18px; 
+    line-height: 21px; 
+    text-align: center; 
+    letter-spacing: 0.2em; 
+    text-transform: uppercase;
+}
+
+.benefit-description-title {
+    font-family: Raleway, sans-serif;
+    font-size: 50px; 
+    line-height: 50px;
+}
+
+/* Link for the delivery modal window */
+
+.delivery-modal-window {
+    font-family: Raleway, sans-serif;
+    font-size: 20px; 
+    line-height: 23px; 
+    text-align: center; 
+    letter-spacing: 0.2em; 
+    text-transform: uppercase;
+}
+
+/* Section About */
+
+.about h2 {
+    font-family: Raleway, sans-serif;
+    font-size: 50px; 
+    line-height: 50px;
+}
+
+.about-list {
+    font-weight: bold;
+}
+
+/* Section Contacts */
+
+.contacts h2 {
+    font-family: Raleway, sans-serif;
+    font-size: 50px; 
+    line-height: 50px;
+}
+
+/* Section Newsletter */
+
+.newsletter h2 {
+    font-family: Raleway, sans-serif;
+    font-size: 50px; 
+    line-height: 50px;
+}
+
+.newsletter-button span {
+    font-family: Raleway, sans-serif;
+    font-size: 18px; 
+    line-height: 21px; 
+    align-items: center; 
+    text-align: center; 
+    letter-spacing: 0.2em; 
+    text-transform: uppercase;
+}
+
+/* Footer */
+
+.nav-footer-item {
+    font-family: Raleway, sans-serif;
+    font-size: 18px; 
+    line-height: 21px; 
+    letter-spacing: 0.2em; 
+    text-transform: uppercase;
+}
+
+/* Inner page with catalogue */
+
+.inner-header-title {
+    font-family: Raleway, sans-serif;
+    font-size: 50px; 
+    line-height: 50px;
+}
+
+/* Sorting */
+
+.sorting-title, .sorting-control {
+    font-family: Raleway, sans-serif;
+    font-size: 16px; 
+    line-height: 19px; 
+    letter-spacing: 0.2em; 
+    text-transform: uppercase;
+}
+
+.catalog-filter-title {
+    font-weight: bold;
+}
+
+/* Product cards */
+
+.product-card-title {
+    font-weight: bold;
+}
+
+.product-card-price {
+    font-size: 18px; 
+    line-height: 21px; 
+    text-align: right; 
+}
+
+/* Pagination */
+
+.button-more {
+    font-family: Raleway, sans-serif;
+    font-size: 16px; 
+    line-height: 19px; 
+    display: flex; 
+    align-items: center; 
+    text-align: center; 
+    letter-spacing: 0.2em; 
+    text-transform: uppercase;
+}
+
+.pagination-prev, .pagination-next {
+    font-family: Raleway, sans-serif;
+    font-size: 18px; 
+    line-height: 21px; 
+    align-items: center; 
+    letter-spacing: 0.2em; 
+    text-transform: uppercase;
+}
+
+
