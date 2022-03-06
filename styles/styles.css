@@ -1,6 +1,6 @@
 @font-face {
     font-family: Rubik;
-    src: url("fonts\rubik\rubik-400.woff2") format("woff2");
+    src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: Rubik;
-    src: url("fonts\rubik\rubik-700.woff2") format("woff2");
+    src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
     font-style: normal;
     font-weight: 700;
     font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: Rubik;
-    src: url("fonts\rubik\rubik-800.woff2") format("woff2");
+    src: url("../fonts/rubik/rubik-800.woff2") format("woff2");
     font-style: normal;
     font-weight: 800;
     font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: Raleway;
-    src: url("fonts\raleway\raleway-800.woff2") format("woff2");
+    src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
     font-style: normal;
     font-weight: 800;
     font-display: swap;
@@ -41,10 +41,6 @@ body {
     color: #444444;
 }
 
-a {
-    color: #000000;
-}
-
 /* Header */
 
 .page-header {
@@ -59,6 +55,15 @@ a {
     line-height: 21px; 
     letter-spacing: 0.2em; 
     text-transform: uppercase;
+    color: #000000;
+}
+
+.user-navigation-link {
+    color: #000000;
+}
+
+.main-navigation-link-item {
+    color: #000000;
 }
 
 /* Slider */
@@ -78,6 +83,7 @@ a {
     text-align: center; 
     letter-spacing: 0.2em; 
     text-transform: uppercase;
+    color: #000000;
 }
 
 /* Catalogue with links on the main page */
@@ -87,6 +93,10 @@ a {
     font-size: 18px; 
     line-height: 24px; 
     letter-spacing: -0.02em;
+}
+
+.catalog-navigation-link {
+    color: #000000;
 }
 
 /* Benefits-slider */
@@ -131,7 +141,7 @@ a {
 }
 
 .about-list {
-    font-weight: bold;
+    font-weight: 800;
 }
 
 /* Section Contacts */
@@ -179,12 +189,20 @@ a {
     text-transform: uppercase;
 }
 
+.nav-footer-link {
+    color: #FFFFFF;
+}
+
 /* Inner page with catalogue */
 
 .inner-header-title {
     font-family: Raleway, sans-serif;
     font-size: 50px; 
     line-height: 50px;
+}
+
+.breadcrumbs-link {
+    color: #000000;
 }
 
 /* Sorting */
@@ -202,19 +220,24 @@ a {
 }
 
 .catalog-filter-title {
-    font-weight: bold;
+    font-weight: 800;
 }
 
 /* Product cards */
 
 .product-card-title {
-    font-weight: bold;
+    font-weight: 800;
+    color: #000000;
+    font-size: 18px; 
+    line-height: 20px; 
+    letter-spacing: -0.02em;
 }
 
 .product-card-price {
     font-size: 18px; 
     line-height: 21px; 
     text-align: right; 
+    color: #444444;
 }
 
 /* Pagination */
@@ -233,6 +256,11 @@ a {
 .pagination {
     background-color: #EBEBEB; 
 }
+
+.pagination-link {
+    color: #444444;
+}
+
 .pagination-prev, .pagination-next {
     font-family: Raleway, sans-serif;
     font-size: 18px; 
@@ -240,6 +268,7 @@ a {
     align-items: center; 
     letter-spacing: 0.2em; 
     text-transform: uppercase;
+    color: #000000;
 }
 
 
